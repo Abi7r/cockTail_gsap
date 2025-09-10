@@ -22,25 +22,25 @@ const cocktailLists = [
     name: "Chapel Hill Shiraz",
     country: "AU",
     detail: "Battle",
-    price: "$10",
+    price: "₹880.20",
   },
   {
     name: "Caten Malbee",
     country: "AU",
     detail: "Battle",
-    price: "$49",
+    price: "₹4,313.00",
   },
   {
     name: "Rhino Pale Ale",
     country: "CA",
     detail: "750 ml",
-    price: "$20",
+    price: "₹1,760.40",
   },
   {
     name: "Irish Guinness",
     country: "IE",
     detail: "600 ml",
-    price: "$29",
+    price: "₹2,552.58",
   },
 ];
 
