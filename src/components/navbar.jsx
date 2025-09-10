@@ -8,7 +8,7 @@ const Navbar = () => {
     const navTween=gsap.timeline({ScrollTrigger:{trigger:'nav',start:'bottom top'}});
     navTween.fromTo('nav',{backgroundColor:'transparent'},{
       backgroundColor:'rgba(0, 0, 0, 0.5)',
-        backgroundFilter:'blur(10px)',
+        backdropFilter:'blur(10px)',
       duration:1,
       ease:'power1.inOut',
     });
@@ -20,7 +20,7 @@ const Navbar = () => {
         <img src="/images/logo.png" alt="logo" />
         <p>Velvet pour</p>
       </a>
-      <ul>{navLinks.map(links=>(<li>
+      <ul>{navLinks.map(links=>(<li key={links.id}>
         <a href={`#${links.id}`}>{links.title}</a>
       </li>))}</ul>
     </div>
