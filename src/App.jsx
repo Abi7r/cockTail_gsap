@@ -8,6 +8,7 @@ import Hero from './components/hero.jsx';
 import Cocktails from './components/cocktails.jsx';
 import About from './components/About.jsx';
 import Art from '../Art.jsx';
+import Menu from '../Menu.jsx';
 const App = () => {
   return (
     <main >
@@ -16,6 +17,7 @@ const App = () => {
   <Cocktails />
       <About/>
       <Art/>
+      <Menu/>
     </main>
   );
 };
