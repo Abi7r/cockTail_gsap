@@ -4,8 +4,8 @@ import {SplitText} from 'gsap/all';
 import { useGSAP } from '@gsap/react';
 const About = () => {
   useGSAP(()=>{const titleSplit=SplitText.create('#about h2',{type:'words'})
-    const scrollTimeLine=gsap.timeline({ScrollTrigger:{trigger:'#about',start:'top center'}});
-    scrollTimeLine.from(titleSplit.words,{opacity:0,yPercent:100,ease:'expo.in',stagger:0.02,duration:1})
+    const scrollTimeLine=gsap.timeline({scrollTrigger:{trigger:'#about',start:'top center'}});
+    scrollTimeLine.from(titleSplit.words,{opacity:0,yPercent:100,ease:'expo.out',stagger:0.02,duration:1})
       .from('.top-grid div, .bottom-grid div',{opacity:0,duration:1,ease:'power1.inOut',stagger:0.04},'-=0.5')
   })
   return (

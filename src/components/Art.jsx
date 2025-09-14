@@ -1,5 +1,5 @@
 import React from 'react';
-import { featureLists, goodLists } from './constants/index.js';
+import {featureLists,goodLists} from '../../constants/index.js';
 import { useMediaQuery } from 'react-responsive';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
