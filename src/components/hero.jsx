@@ -31,12 +31,7 @@ const Hero = () => {
     const startValue = isMobile ? 'top 50%' : 'center 60%';
     const endValue = isMobile ? '120% top' : 'bottom top';
 
-    // Video scroll animation
-    // const video = videoRef.current;
-    // if (video) {
-    //   // Set initial video state
-    //   video.currentTime = 0;
-    //   video.pause();
+
 
       const tl = gsap.timeline({
         scrollTrigger: {

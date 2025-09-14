@@ -16,9 +16,9 @@ const Navbar = () => {
   return (
     <nav>
     <div>
-      <a href="#home" className="flex items-center gap-2">
-        <img src="/images/logo.png" alt="logo" />
-        <p>Velvet pour</p>
+      <a href="nav" className="flex items-center gap-2">
+        <img src="/images/logo4.png" alt="logo" />
+        <p>Liquid Lore</p>
       </a>
       <ul>{navLinks.map(links=>(<li key={links.id}>
         <a href={`#${links.id}`}>{links.title}</a>
